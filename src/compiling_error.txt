@@ -1,0 +1,78 @@
+/tmp/ccNKt2JU.o: In function `TestIt(long, long, long, long, long, long, long, bool)':
+/home/kurdimo/Desktop/HElib-master/src/Test_bootstrapping.cpp:112: undefined reference to `NTL::GCD(long, long)'
+/home/kurdimo/Desktop/HElib-master/src/Test_bootstrapping.cpp:140: undefined reference to `FHEcontext::FHEcontext(unsigned long, unsigned long, unsigned long, std::vector<long, std::allocator<long> > const&, std::vector<long, std::allocator<long> > const&)'
+/home/kurdimo/Desktop/HElib-master/src/Test_bootstrapping.cpp:142: undefined reference to `buildModChain(FHEcontext&, long, long)'
+/home/kurdimo/Desktop/HElib-master/src/Test_bootstrapping.cpp:153: undefined reference to `PAlgebra::printout() const'
+/home/kurdimo/Desktop/HElib-master/src/Test_bootstrapping.cpp:173: undefined reference to `addSome1DMatrices(FHESecKey&, long, long)'
+/home/kurdimo/Desktop/HElib-master/src/Test_bootstrapping.cpp:174: undefined reference to `addFrbMatrices(FHESecKey&, long)'
+/home/kurdimo/Desktop/HElib-master/src/Test_bootstrapping.cpp:176: undefined reference to `FHESecKey::genRecryptData()'
+/home/kurdimo/Desktop/HElib-master/src/Test_bootstrapping.cpp:180: undefined reference to `NTL::zz_p::init(long, long)'
+/home/kurdimo/Desktop/HElib-master/src/Test_bootstrapping.cpp:184: undefined reference to `PowerfulConversion::polyToPowerful(HyperCube<NTL::zz_p>&, NTL::zz_pX const&) const'
+/home/kurdimo/Desktop/HElib-master/src/Test_bootstrapping.cpp:198: undefined reference to `Ctxt::Ctxt(FHEPubKey const&, long)'
+/home/kurdimo/Desktop/HElib-master/src/Test_bootstrapping.cpp:200: undefined reference to `FHESecKey::Encrypt(Ctxt&, NTL::ZZX const&, long, long) const'
+/home/kurdimo/Desktop/HElib-master/src/Test_bootstrapping.cpp:202: undefined reference to `FHEPubKey::reCrypt(Ctxt&)'
+/home/kurdimo/Desktop/HElib-master/src/Test_bootstrapping.cpp:203: undefined reference to `FHESecKey::Decrypt(NTL::ZZX&, Ctxt const&) const'
+/home/kurdimo/Desktop/HElib-master/src/Test_bootstrapping.cpp:205: undefined reference to `NTL::operator==(NTL::ZZX const&, NTL::ZZX const&)'
+/home/kurdimo/Desktop/HElib-master/src/Test_bootstrapping.cpp:207: undefined reference to `NTL::conv(NTL::zz_pX&, NTL::ZZX const&)'
+/home/kurdimo/Desktop/HElib-master/src/Test_bootstrapping.cpp:210: undefined reference to `std::ostream& printVec<NTL::zz_p>(std::ostream&, NTL::Vec<NTL::zz_p> const&, long)'
+/home/kurdimo/Desktop/HElib-master/src/Test_bootstrapping.cpp:212: undefined reference to `PowerfulConversion::polyToPowerful(HyperCube<NTL::zz_p>&, NTL::zz_pX const&) const'
+/home/kurdimo/Desktop/HElib-master/src/Test_bootstrapping.cpp:214: undefined reference to `std::ostream& printVec<NTL::zz_p>(std::ostream&, NTL::Vec<NTL::zz_p> const&, long)'
+/home/kurdimo/Desktop/HElib-master/src/Test_bootstrapping.cpp:219: undefined reference to `NTL::operator<<(std::ostream&, NTL::zz_p)'
+/home/kurdimo/Desktop/HElib-master/src/Test_bootstrapping.cpp:219: undefined reference to `NTL::operator<<(std::ostream&, NTL::zz_p)'
+/home/kurdimo/Desktop/HElib-master/src/Test_bootstrapping.cpp:223: undefined reference to `printAllTimers(std::ostream&)'
+/home/kurdimo/Desktop/HElib-master/src/Test_bootstrapping.cpp:232: undefined reference to `printAllTimers(std::ostream&)'
+/home/kurdimo/Desktop/HElib-master/src/Test_bootstrapping.cpp:233: undefined reference to `resetAllTimers()'
+/home/kurdimo/Desktop/HElib-master/src/Test_bootstrapping.cpp:140: undefined reference to `FHEcontext::~FHEcontext()'
+/home/kurdimo/Desktop/HElib-master/src/Test_bootstrapping.cpp:140: undefined reference to `FHEcontext::~FHEcontext()'
+/tmp/ccNKt2JU.o: In function `main':
+/home/kurdimo/Desktop/HElib-master/src/Test_bootstrapping.cpp:278: undefined reference to `NTL::SetSeed(NTL::ZZ const&)'
+/tmp/ccNKt2JU.o: In function `NTL::GetTime()':
+/usr/local/include/NTL/tools.h:410: undefined reference to `_ntl_GetTime()'
+/tmp/ccNKt2JU.o: In function `NTL::MemoryError()':
+/usr/local/include/NTL/tools.h:552: undefined reference to `NTL::TerminalError(char const*)'
+/tmp/ccNKt2JU.o: In function `NTL::Error(char const*)':
+/usr/local/include/NTL/tools.h:553: undefined reference to `NTL::TerminalError(char const*)'
+/tmp/ccNKt2JU.o: In function `NTL::LogicError(char const*)':
+/usr/local/include/NTL/tools.h:554: undefined reference to `NTL::TerminalError(char const*)'
+/tmp/ccNKt2JU.o: In function `NTL::ResourceError(char const*)':
+/usr/local/include/NTL/tools.h:557: undefined reference to `NTL::TerminalError(char const*)'
+/tmp/ccNKt2JU.o: In function `NTL::ZZ::Deleter::apply(_ntl_gbigint_body*)':
+/usr/local/include/NTL/ZZ.h:39: undefined reference to `_ntl_gfree(_ntl_gbigint_body*)'
+/tmp/ccNKt2JU.o: In function `NTL::ZZ::operator=(long)':
+/usr/local/include/NTL/ZZ.h:84: undefined reference to `_ntl_gintoz(long, _ntl_gbigint_body**)'
+/tmp/ccNKt2JU.o: In function `NTL::random_zz_pX(long)':
+/usr/local/include/NTL/lzz_pX.h:231: undefined reference to `NTL::random(NTL::zz_pX&, long)'
+/tmp/ccNKt2JU.o: In function `setDryRun(bool)':
+/home/kurdimo/Desktop/HElib-master/src/NumbTh.h:78: undefined reference to `FHEglobals::dryRun'
+/home/kurdimo/Desktop/HElib-master/src/NumbTh.h:78: undefined reference to `FHEglobals::dryRun'
+/tmp/ccNKt2JU.o: In function `isDryRun()':
+/home/kurdimo/Desktop/HElib-master/src/NumbTh.h:79: undefined reference to `FHEglobals::dryRun'
+/tmp/ccNKt2JU.o: In function `PolyRed(NTL::ZZX&, long, bool)':
+/home/kurdimo/Desktop/HElib-master/src/NumbTh.h:374: undefined reference to `PolyRed(NTL::ZZX&, NTL::ZZX const&, long, bool)'
+/tmp/ccNKt2JU.o: In function `IndexSet::IndexSet(long, long)':
+/home/kurdimo/Desktop/HElib-master/src/IndexSet.h:61: undefined reference to `IndexSet::intervalConstructor(long, long)'
+/tmp/ccNKt2JU.o: In function `FHEcontext::makeBootstrappable(NTL::Vec<long> const&, long, bool)':
+/home/kurdimo/Desktop/HElib-master/src/FHEContext.h:141: undefined reference to `RecryptData::init(FHEcontext const&, NTL::Vec<long> const&, long, bool)'
+/tmp/ccNKt2JU.o: In function `FHEcontext::logOfProduct(IndexSet const&) const':
+/home/kurdimo/Desktop/HElib-master/src/FHEContext.h:191: undefined reference to `IndexSet::next(long) const'
+/tmp/ccNKt2JU.o: In function `DoubleCRT::sampleHWt(long)':
+/home/kurdimo/Desktop/HElib-master/src/DoubleCRT.h:346: undefined reference to `sampleHWt(NTL::ZZX&, long, long)'
+/home/kurdimo/Desktop/HElib-master/src/DoubleCRT.h:347: undefined reference to `DoubleCRT::operator=(NTL::ZZX const&)'
+/tmp/ccNKt2JU.o: In function `FHEPubKey::FHEPubKey(FHEcontext const&)':
+/home/kurdimo/Desktop/HElib-master/src/FHE.h:153: undefined reference to `Ctxt::Ctxt(FHEPubKey const&, long)'
+/home/kurdimo/Desktop/HElib-master/src/FHE.h:153: undefined reference to `Ctxt::Ctxt(FHEPubKey const&, long)'
+/tmp/ccNKt2JU.o: In function `FHESecKey::GenSecKey(long, long, long)':
+/home/kurdimo/Desktop/HElib-master/src/FHE.h:269: undefined reference to `DoubleCRT::DoubleCRT(FHEcontext const&)'
+/home/kurdimo/Desktop/HElib-master/src/FHE.h:271: undefined reference to `FHESecKey::ImportSecKey(DoubleCRT const&, long, long, long)'
+/tmp/ccNKt2JU.o: In function `NTL::zz_pXModulus::operator=(NTL::zz_pXModulus const&)':
+/usr/local/include/NTL/lzz_pX.h:845: undefined reference to `NTL::fftRep::operator=(NTL::fftRep const&)'
+/usr/local/include/NTL/lzz_pX.h:845: undefined reference to `NTL::fftRep::operator=(NTL::fftRep const&)'
+/tmp/ccNKt2JU.o: In function `PowerfulConversion::initPConv(PowerfulTranslationIndexes const&)':
+/home/kurdimo/Desktop/HElib-master/src/powerful.h:102: undefined reference to `NTL::zz_pContext::save()'
+/home/kurdimo/Desktop/HElib-master/src/powerful.h:104: undefined reference to `NTL::zz_pXModulus::zz_pXModulus(NTL::zz_pX const&)'
+/home/kurdimo/Desktop/HElib-master/src/powerful.h:106: undefined reference to `NTL::zz_pXModulus::zz_pXModulus(NTL::zz_pX const&)'
+/tmp/ccNKt2JU.o: In function `NTL::zz_pX NTL::conv<NTL::zz_pX, NTL::ZZX>(NTL::ZZX const&)':
+/usr/local/include/NTL/tools.h:348: undefined reference to `NTL::conv(NTL::zz_pX&, NTL::ZZX const&)'
+/tmp/ccNKt2JU.o: In function `NTL::ZZX NTL::conv<NTL::ZZX, NTL::zz_pX>(NTL::zz_pX const&)':
+/usr/local/include/NTL/tools.h:348: undefined reference to `NTL::conv(NTL::ZZX&, NTL::zz_pX const&)'
+collect2: error: ld returned 1 exit status
